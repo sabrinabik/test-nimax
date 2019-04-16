@@ -43,7 +43,7 @@ $(document).ready(function() {
   $("#search").blur(function(){
     $(".logo").removeClass('small-logo');
     $("#search").attr("placeholder", "");
-    $(".card-search__expand").css("background", "url(../img/arrow.svg) no-repeat center");
+    $(".card-search__expand").css("background", "url(/img/arrow.svg) no-repeat center");
   });
 
 var input = document.getElementById("search");
